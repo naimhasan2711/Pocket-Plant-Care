@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 
+        FileProvider paths configuration for secure file access.
+        
+        This configuration enables the app to securely share photo files with the camera app
+        and other external applications. Uses app-specific external storage that doesn't
+        require storage permissions on Android 10+.
+        
+        Path types:
+        - external-files-path: App-specific external files directory
+        - PlantPhotos: Subdirectory for organizing plant photos
+        
+        Security: Files are only accessible to apps with proper URI permissions
+    -->
+    <external-files-path 
+        name="plant_photos" 
+        path="Pictures/PlantPhotos/" />
+</paths>
